@@ -1,7 +1,7 @@
 # import pandas as pd
 # import glob
 #
-# path = 'C:\\Users\\dv115813\\Desktop\\ExcelPython\\*.xls' #choose data only from files with extension xls
+# path = 'C:\\Users\\Desktop\\ExcelPython\\*.xls' #choose data only from files with extension xls from a specific folder / location
 # excel_files = glob.glob(location)
 #
 # df1 = pd.DataFrame()
@@ -10,7 +10,7 @@
 #     df2 = pd.read_excel(excel_file)
 #     df1 = pd.concat([df1, df2], ignore_index=True)
 #
-# df1.to_excel("C:\\Users\\dv115813\\Desktop\\ExcelPythonResult\\varianta_finala.xls", index = False) #the path where you want the combined file to be created
+# df1.to_excel("C:\\Users\\Desktop\\ExcelPythonResult\\varianta_finala.xls", index = False) #the path where you want the combined file to be created
 
 # This part is just your own code, I've added it here because you
 # couldn't figure out where `excel_files` came from
